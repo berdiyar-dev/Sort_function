@@ -3,5 +3,5 @@ def my_func(param):
     a = tuple(param)
     return a
 i = list(map(int,input("Listni toldiring:").split()))
-a = my_func(i)
-print(a)
+res = my_func(i)
+print(res)
